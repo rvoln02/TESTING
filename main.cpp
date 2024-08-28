@@ -108,7 +108,7 @@ int main()
             for(int num : row){
                 cout << ((num == 1) ? "\u25A0 " : "  ");
             }
-            cout << endl;
+            cout << '\n'; //cleaner and faster than endl
         }
 
         if(!gameOfLife(start,bCount,dCount)){ 
