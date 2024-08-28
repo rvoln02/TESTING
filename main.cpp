@@ -5,6 +5,7 @@
 #include <time.h>
 
 
+
 using namespace std;
 bool gameOfLife(vector<vector<int>>& board, int& birthCounter, int& deathCounter) {
     int numRows = board.size();
